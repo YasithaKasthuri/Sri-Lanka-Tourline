@@ -145,3 +145,4 @@ $('.active-blog-slider').owlCarousel({
       });   
 
  });
+
