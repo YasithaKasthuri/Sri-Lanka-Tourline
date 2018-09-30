@@ -2726,13 +2726,21 @@ h6 {
 .whole-wrap {
   background-color: #fff;
 }
+.generic-banner1 {
+  text-align: center;
+  background-image: url("../img/sl-shopping1.jpg");
+}
+
+
+
+
 
 .generic-banner {
   text-align: center;
 }
 
-.generic-banner .height {
-  height: 600px;
+.generic-banner .height, .generic-banner1 .height {
+  height: 550px;
 }
 
 @media (max-width: 767px) {
@@ -2741,24 +2749,33 @@ h6 {
   }
 }
 
-.generic-banner .generic-banner-content h2 {
+.generic-banner-content{
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: 1px;
+  margin-right: 1px;
+  background-color: rgba(255, 255, 255, 0.61);
+  border-radius: 20px;
+}
+
+.generic-banner .generic-banner-content h2, .generic-banner1 .generic-banner-content h2  {
   line-height: 1.2em;
   margin-bottom: 20px;
 }
 
 @media (max-width: 991px) {
-  .generic-banner .generic-banner-content h2 br {
+  .generic-banner .generic-banner-content h2 br, .generic-banner1 .generic-banner-content h2 br  {
     display: none;
   }
 }
 
-.generic-banner .generic-banner-content p {
+.generic-banner .generic-banner-content p, .generic-banner1 .generic-banner-content p {
   text-align: center;
   font-size: 16px;
 }
 
 @media (max-width: 991px) {
-  .generic-banner .generic-banner-content p br {
+  .generic-banner .generic-banner-content p br, .generic-banner1 .generic-banner-content p br {
     display: none;
   }
 }
