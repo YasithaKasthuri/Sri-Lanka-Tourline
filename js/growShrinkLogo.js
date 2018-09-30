@@ -4,13 +4,13 @@ window.onscroll = function () {
 function growShrinkLogo() {
     var Logo = document.getElementById("Logo");
     if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
-        Logo.style.height = '60px';
-        Logo.style.width = '60px';
+        Logo.style.height = '25px';
+        Logo.style.width = '90%';
         Logo.style.transitionDuration = '0.6s';
     }
     else {
-        Logo.style.height = '80px';
-        Logo.style.width = '80px';
+        Logo.style.height = '30px';
+        Logo.style.width = '100%';
     }
 
    var nav = document.getElementById("nav");
