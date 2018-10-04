@@ -33,7 +33,7 @@
 			<section class="generic-banner1 relative">
 			<!-- Start Header Area -->
 				<header class="default-header">
-					<nav class="navbar navbar-expand-lg  navbar-light">
+					<nav class="navbar navbar-expand-lg  navbar-light" id="nav">
 						<div class="container">
 							  <a class="navbar-brand" href="index.html">
 							  	<img src="img/logo1.png" alt="">
@@ -74,30 +74,32 @@
 
 			<!-- Start feature Area -->
 			<section class="feature-area section-gap">
-				<div class="container">
+				<div class="container-fluid">
 					<div class="row d-flex justify-content-center">
 						<div class="menu-content pb-60 col-lg-8">
 							<div class="title text-center">
-								<h1 class="mb-10">Some Features that Made us Unique</h1>
-								<p>Who are in extremely love with eco friendly system.</p>
+								<h1 class="mb-10">SCHEDULE</h1>
+								<p>The best Sri Lanka Shopping Tour</p>
 							</div>
 						</div>
 					</div>						
-					<div class="row">
-						<div class="col-lg-6 col-md-6  ">
-							<img src="img/pkg_01_map.png">
+					<div class="row row-padded">
+						<div class="col-sm-6 col-md-6 text-center">
+							<img src="img/pkg_01_map.png" class="img-fluid">
+							<br>
 						</div>
-						<div class="col-lg-6 col-md-6 ">
-							<div class="single-feature mb-30">
-								<div class="title d-flex flex-row pb-20">
-									<span class="lnr lnr-license"></span>
-									<h4><a href="#">Professional Service</a></h4>
-								</div>
-								<p>
-									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
-								</p>							
-							</div>							
+						<div class="col-sm-6 col-md-6 text-left">
+								<ul class="ul">
+										<li type="square">DAY 1: AIRPORT / NEGOMBO</li><br>
+										<li type="square">DAY 2: NEGOMBO/RAMBODAGALLA TEMPLE /DAMBULLA</li><br>
+										<li type="square">DAY 3: DAMBULLA / ANURADHAPURA</li><br>
+										<li type="square">DAY 4: ANURADHAPURA / MIHINTALE/ POLONNARUWA</li><br>
+										<li type="square">DAY 5: POLONNARUWA / SIGIRIYA</li><br>
+										
+									</ul>
 						</div>
+						
+						
 																
 					</div>
 				</div>	
@@ -118,10 +120,38 @@
 					  <!-- Tab panes -->
 					<div class="tab-content">
 						<div id="info" class="container tab-pane active"><br>
-						  test info
+							<span class="lnr lnr-location"></span>	Day 1 <br> After arriving  in Srilanka you will be welcome by company representative  and transfer to the near beach hotel as soon as possibly. Overnight you staying in that hotel.<br><br>
+							<span class="lnr lnr-location"></span>	Day 2 <br> After breakfast your going to Kandy after that your going to visit elephant orphanage and spice garden. After that we are going to visit temple of tooth this is the main destination of day 2 after all of it night also spending at Kandy.<br><br>
+							<span class="lnr lnr-location"></span>	Day 3 <br> After breakfast your going to visit gem museum, wood carving factory, hand maid crafts and cloths factory. After that we are going to visit botanical garden and after that coming back to Colombo and spending the night at Colombo.<br><br>
+							<span class="lnr lnr-location"></span>	Day 4 <br> After breakfast your going shopping in Colombo. All of the day you spending in Colombo.<br><br>
+							<span class="lnr lnr-location"></span>	Day 5 <br> After breakfast your going to airport for your departure.<br><br>
+						
 						</div>
 					  	<div id="inq" class="container tab-pane fade"><br>
-						test Inquiry
+						<!-- start contact Area -->		
+								<section class="contact-area section-gap" id="contact">
+									<div class="container">
+																				
+										<form class="form-area " id="myForm" action="mail.php" method="post" class="contact-form text-right">
+											<div class="row">	
+											<div class="col-lg-6 form-group">
+												<input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text">
+											
+												<input name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email">
+
+												<input name="subject" placeholder="Enter your subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your subject'" class="common-input mb-20 form-control" required="" type="text">
+											</div>
+											<div class="col-lg-6 form-group">
+												<textarea class="common-textarea mt-10 form-control" name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
+												<button class="primary-btn mt-20">Send Message<span class="lnr lnr-arrow-right"></span></button>
+												<div class="alert-msg">								
+											</div>
+											</div></div>
+										</form>						
+										
+									</div>	
+								</section>
+						<!-- end contact Area -->	
 						</div>
 				  	</div>
 				</div>

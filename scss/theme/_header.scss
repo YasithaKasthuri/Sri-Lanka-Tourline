@@ -40,8 +40,11 @@
 	a{
 		text-transform:uppercase;
 		font-weight:600;
-		color:$white;
+		color:$black;
 		padding: 20px;
+	}
+	:hover {
+		color: #36f17e;
 	}
 	@media(max-width:992px){
 		margin-top:10px;
@@ -53,6 +56,16 @@
 		}
 	}
 }
-
+.navbar {
+	-webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+}
+.navbar-brand {
+		img {
+			height: 30px;
+			width: 100%;
+	}
+}
 
 
