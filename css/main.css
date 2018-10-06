@@ -1502,9 +1502,9 @@ hr {
   background-image: -ms-linear-gradient(0deg, #21b954 0%, #027737 100%); }
 
 .p1-gradient-color, .counter-left h2, .footer-social a:hover i, .single-footer-widget .bb-btn {
-  background: -moz-linear-gradient(0deg, #b21aff 0%, #732bde 100%);
-  background: -webkit-linear-gradient(0deg, #b21aff 0%, #732bde 100%);
-  background: -ms-linear-gradient(0deg, #b21aff 0%, #732bde 100%);
+  background: -moz-linear-gradient(0deg, #21b954 0%, #027737 100%);
+  background: -webkit-linear-gradient(0deg, #21b954 0%, #027737 100%);
+  background: -ms-linear-gradient(0deg, #21b954 0%, #027737 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
